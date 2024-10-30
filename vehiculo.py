@@ -20,7 +20,7 @@ class Vehiculo:
 
     @marca.setter
     def marca(self, marca):
-        self.marca = marca
+        self._marca = marca
 
     @property
     def modelo(self):
@@ -28,7 +28,7 @@ class Vehiculo:
 
     @modelo.setter
     def modelo(self, modelo):
-        self.modelo = modelo
+        self._modelo = modelo
 
     @property
     def numero_ruedas(self):
@@ -36,7 +36,7 @@ class Vehiculo:
 
     @numero_ruedas.setter
     def numero_ruedas(self, numero_ruedas):
-        self.numero_ruedas = numero_ruedas
+        self._numero_ruedas = numero_ruedas
 
     def guardar_datos_csv(self):
         try:
@@ -106,7 +106,7 @@ class Automovil(Vehiculo):
 
     @velocidad.setter
     def velocidad(self, velocidad):
-        self.velocidad = velocidad
+        self._velocidad = velocidad
 
     @property
     def cilindrada(self):
@@ -114,7 +114,7 @@ class Automovil(Vehiculo):
 
     @cilindrada.setter
     def cilindrada(self, cilindrada):
-        self.cilindrada = cilindrada
+        self._cilindrada = cilindrada
 
 
 class Particular(Automovil):
@@ -133,7 +133,7 @@ class Particular(Automovil):
 
     @numero_puestos.setter
     def numero_puestos(self, numero_puestos):
-        self.numero_puestos = numero_puestos
+        self._numero_puestos = numero_puestos
 
 
 class Carga(Automovil):
@@ -150,7 +150,7 @@ class Carga(Automovil):
 
     @peso_carga.setter
     def peso_carga(self, peso_carga):
-        self.peso_carga = peso_carga
+        self._peso_carga = peso_carga
 
 
 class Bicicleta(Vehiculo):
@@ -167,7 +167,7 @@ class Bicicleta(Vehiculo):
 
     @tipo.setter
     def tipo(self, tipo):
-        self.tipo = tipo
+        self._tipo = tipo
 
 
 class Motocicleta(Bicicleta):
@@ -194,7 +194,7 @@ class Motocicleta(Bicicleta):
 
     @cuadro.setter
     def cuadro(self, cuadro):
-        self.cuadro = cuadro
+        self._cuadro = cuadro
 
     @property
     def motor(self):
@@ -202,4 +202,4 @@ class Motocicleta(Bicicleta):
 
     @motor.setter
     def motor(self, motor):
-        self.motor = motor
+        self._motor = motor
