@@ -35,27 +35,27 @@ print(bicicleta)
 print(motocicleta)
 
 print(
-    "Motocicleta es instacion con relación a Vehiculo: ",
+    "Motocicleta es instancia con relación a Vehiculo: ",
     isinstance(motocicleta, Vehiculo),
 )
 print(
-    "Motocicleta es instacion con relación a Automovil: ",
+    "Motocicleta es instancia con relación a Automovil: ",
     isinstance(motocicleta, Automovil),
 )
 print(
-    "Motocicleta es instacion con relación a Vehiculo particular: ",
+    "Motocicleta es instancia con relación a Vehiculo particular: ",
     isinstance(motocicleta, Particular),
 )
 print(
-    "Motocicleta es instacion con relación a Vehiculo de carga: ",
+    "Motocicleta es instancia con relación a Vehiculo de carga: ",
     isinstance(motocicleta, Carga),
 )
 print(
-    "Motocicleta es instacion con relación a Bicicleta: ",
+    "Motocicleta es instancia con relación a Bicicleta: ",
     isinstance(motocicleta, Bicicleta),
 )
 print(
-    "Motocicleta es instacion con relación a Motocicleta: ",
+    "Motocicleta es instancia con relación a Motocicleta: ",
     isinstance(motocicleta, Motocicleta),
 )
 
