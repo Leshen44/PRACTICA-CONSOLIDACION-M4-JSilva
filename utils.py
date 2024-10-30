@@ -1,4 +1,4 @@
-from automovil import Automovil
+from vehiculo import Automovil
 import csv
 
 
