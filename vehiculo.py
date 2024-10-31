@@ -73,16 +73,16 @@ class Vehiculo:
                         motocicletas.append(row[1])
                     else:
                         print("No hay datos")
-                print("Lista de Vehiculos Particular")
+                print("\nLista de Vehiculos Particular")
                 for i in particulares:
                     print(i)
-                print("Lista de Vehiculos de Carga")
+                print("\nLista de Vehiculos de Carga")
                 for i in cargas:
                     print(i)
-                print("Lista de Vehiculos Bicicleta")
+                print("\nLista de Vehiculos Bicicleta")
                 for i in bicicletas:
                     print(i)
-                print("Lista de Vehiculos Motocicleta")
+                print("\nLista de Vehiculos Motocicleta")
                 for i in motocicletas:
                     print(i)
 
